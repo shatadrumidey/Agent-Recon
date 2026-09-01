@@ -1,0 +1,10 @@
+{
+  "description": "Streamline financial transaction management with an intuitive dashboard that visualizes system health, identifies exceptions, and leverages AI for resolution.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
