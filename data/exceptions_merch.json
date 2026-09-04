@@ -1,0 +1,912 @@
+[
+  {
+    "merch_txn_id": "TXN-0A20F15C",
+    "amount_inr": 3206.49,
+    "timestamp": "2026-08-25T14:15:55",
+    "customer_name": "Javier Baker",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-5C503297",
+    "amount_inr": 9754.03,
+    "timestamp": "2026-08-02T11:06:49",
+    "customer_name": "Sarah Duncan",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-7BE90CF0",
+    "amount_inr": 8759.28,
+    "timestamp": "2026-08-23T22:54:41",
+    "customer_name": "Erin Tran",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-6E3B337E",
+    "amount_inr": 5558.01,
+    "timestamp": "2026-08-10T11:49:45",
+    "customer_name": "Brandy Curtis",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-2D33A636",
+    "amount_inr": 2733.87,
+    "timestamp": "2026-07-31T01:17:28",
+    "customer_name": "Molly Tyler",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-40274019",
+    "amount_inr": 4928.56,
+    "timestamp": "2026-08-14T04:35:08",
+    "customer_name": "John Smith",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-CC9CE36B",
+    "amount_inr": 8476.67,
+    "timestamp": "2026-08-25T04:07:22",
+    "customer_name": "Sarah Wallace",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-510EB551",
+    "amount_inr": 2604.43,
+    "timestamp": "2026-08-19T10:02:45",
+    "customer_name": "Kathleen Thompson",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-97A3E1F2",
+    "amount_inr": 5074.91,
+    "timestamp": "2026-08-06T02:55:18",
+    "customer_name": "Dr. Marcus Johnston",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-18FF4506",
+    "amount_inr": 1879.14,
+    "timestamp": "2026-08-14T08:19:55",
+    "customer_name": "Alvin Johnson",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-35A252D7",
+    "amount_inr": 7051.79,
+    "timestamp": "2026-08-19T09:33:35",
+    "customer_name": "Tina Bowen",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-47FD858A",
+    "amount_inr": 1428.36,
+    "timestamp": "2026-08-09T08:52:11",
+    "customer_name": "Jordan Smith",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-5001F802",
+    "amount_inr": 4319.87,
+    "timestamp": "2026-08-24T17:10:45",
+    "customer_name": "Eric Nelson",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-315CAEEC",
+    "amount_inr": 2924.43,
+    "timestamp": "2026-08-25T08:10:28",
+    "customer_name": "Nancy Pennington",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-209CEB86",
+    "amount_inr": 8525.93,
+    "timestamp": "2026-08-21T22:32:51",
+    "customer_name": "Anna Barnes",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-9D628C1B",
+    "amount_inr": 583.31,
+    "timestamp": "2026-08-09T13:35:43",
+    "customer_name": "Natasha Weaver",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-22975717",
+    "amount_inr": 150.76,
+    "timestamp": "2026-08-02T20:27:48",
+    "customer_name": "Tammie Phelps",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-9C5518C5",
+    "amount_inr": 8009.86,
+    "timestamp": "2026-08-01T10:29:50",
+    "customer_name": "Mary Brock",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-730480A7",
+    "amount_inr": 8067.5,
+    "timestamp": "2026-08-04T15:14:31",
+    "customer_name": "Miranda Jackson",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-2546A6C7",
+    "amount_inr": 841.55,
+    "timestamp": "2026-08-19T03:49:21",
+    "customer_name": "Shannon Wilson III",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-5D2A472E",
+    "amount_inr": 291.54,
+    "timestamp": "2026-08-23T20:18:32",
+    "customer_name": "Rachel Lambert",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-02E317E0",
+    "amount_inr": 6568.21,
+    "timestamp": "2026-08-09T10:34:22",
+    "customer_name": "Lisa Evans",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-DEA97D79",
+    "amount_inr": 8217.22,
+    "timestamp": "2026-08-11T14:33:16",
+    "customer_name": "Alison Sanchez",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-0A1A833A",
+    "amount_inr": 7875.08,
+    "timestamp": "2026-08-03T10:33:35",
+    "customer_name": "Connor Griffith",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-746169B7",
+    "amount_inr": 9094.1,
+    "timestamp": "2026-08-14T04:23:53",
+    "customer_name": "Damon Barker",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-DB06A3A8",
+    "amount_inr": 5627.26,
+    "timestamp": "2026-07-31T18:18:27",
+    "customer_name": "Andrea Wright",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-E6B1E0AE",
+    "amount_inr": 1585.0,
+    "timestamp": "2026-08-19T18:34:46",
+    "customer_name": "David Massey",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-E16FAA9B",
+    "amount_inr": 6505.1,
+    "timestamp": "2026-07-30T23:42:32",
+    "customer_name": "Noah Smith",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-066B6A4D",
+    "amount_inr": 2001.01,
+    "timestamp": "2026-08-21T19:59:38",
+    "customer_name": "Billy Pennington",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-12C56BDB",
+    "amount_inr": 4313.49,
+    "timestamp": "2026-08-09T03:09:25",
+    "customer_name": "Michael Jackson",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-A258DC7B",
+    "amount_inr": 7330.36,
+    "timestamp": "2026-07-29T05:29:00",
+    "customer_name": "Krystal Martin",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-D27044B0",
+    "amount_inr": 8556.44,
+    "timestamp": "2026-08-15T19:52:19",
+    "customer_name": "Shannon Benjamin",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-33056174",
+    "amount_inr": 5104.88,
+    "timestamp": "2026-08-15T15:18:30",
+    "customer_name": "Joseph Price",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-186DC0F7",
+    "amount_inr": 1642.08,
+    "timestamp": "2026-07-29T21:58:48",
+    "customer_name": "Andrew Larsen",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-D101BF97",
+    "amount_inr": 7053.84,
+    "timestamp": "2026-08-10T05:41:35",
+    "customer_name": "Jodi Koch",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-655333B1",
+    "amount_inr": 7472.28,
+    "timestamp": "2026-08-01T01:20:37",
+    "customer_name": "Mrs. Bonnie Johnson DDS",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-5698B032",
+    "amount_inr": 7371.57,
+    "timestamp": "2026-07-31T03:59:25",
+    "customer_name": "Austin Howard",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-EAA630C4",
+    "amount_inr": 9485.58,
+    "timestamp": "2026-07-29T15:21:04",
+    "customer_name": "Teresa Berg",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-7EC0F262",
+    "amount_inr": 2672.55,
+    "timestamp": "2026-08-10T12:36:53",
+    "customer_name": "Allison Velazquez",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-4282ECEE",
+    "amount_inr": 9893.01,
+    "timestamp": "2026-08-06T10:08:49",
+    "customer_name": "Brian Davis",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-E701056C",
+    "amount_inr": 3650.68,
+    "timestamp": "2026-08-06T01:53:18",
+    "customer_name": "Marie Davila",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-5905F053",
+    "amount_inr": 9713.11,
+    "timestamp": "2026-07-30T21:09:58",
+    "customer_name": "Samantha Jones",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-8AF41322",
+    "amount_inr": 8335.89,
+    "timestamp": "2026-08-06T07:54:12",
+    "customer_name": "John Moore",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-7302C51F",
+    "amount_inr": 9286.58,
+    "timestamp": "2026-08-03T00:42:41",
+    "customer_name": "Danielle Fisher",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-58119230",
+    "amount_inr": 4691.73,
+    "timestamp": "2026-08-04T06:48:57",
+    "customer_name": "Margaret Brewer",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-18B8C288",
+    "amount_inr": 8256.75,
+    "timestamp": "2026-08-17T08:42:44",
+    "customer_name": "Cody Baker",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-6A8B01D6",
+    "amount_inr": 1493.25,
+    "timestamp": "2026-08-02T09:23:37",
+    "customer_name": "William Davis",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-50C5409F",
+    "amount_inr": 9458.8,
+    "timestamp": "2026-08-07T11:57:02",
+    "customer_name": "Kelly Smith",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-360F5798",
+    "amount_inr": 5640.18,
+    "timestamp": "2026-08-03T22:12:00",
+    "customer_name": "Daniel Payne",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-1AC9FF3F",
+    "amount_inr": 9424.04,
+    "timestamp": "2026-08-03T05:43:31",
+    "customer_name": "Evan Ramos",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-C8BC2E4A",
+    "amount_inr": 9691.73,
+    "timestamp": "2026-08-25T20:55:08",
+    "customer_name": "William Wise",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-97DB7DEF",
+    "amount_inr": 6591.87,
+    "timestamp": "2026-08-07T23:54:27",
+    "customer_name": "Rachel Elliott",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-0011081A",
+    "amount_inr": 5456.31,
+    "timestamp": "2026-08-24T17:25:05",
+    "customer_name": "Monique Marshall",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-CBA332A9",
+    "amount_inr": 4077.0,
+    "timestamp": "2026-08-03T23:35:37",
+    "customer_name": "Mr. Justin Johnson",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-50183ACD",
+    "amount_inr": 8700.06,
+    "timestamp": "2026-08-05T03:13:20",
+    "customer_name": "Timothy Brock",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-D948F9D9",
+    "amount_inr": 4187.24,
+    "timestamp": "2026-07-28T10:40:14",
+    "customer_name": "Sara Miller",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-B8D4E1D3",
+    "amount_inr": 5565.41,
+    "timestamp": "2026-08-16T13:55:15",
+    "customer_name": "Robin Shea",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-925CFDF1",
+    "amount_inr": 4901.76,
+    "timestamp": "2026-08-10T02:34:03",
+    "customer_name": "Patrick Hancock",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-11AE5BCF",
+    "amount_inr": 2646.03,
+    "timestamp": "2026-07-30T06:28:36",
+    "customer_name": "Mary Cain",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-164C2018",
+    "amount_inr": 5429.52,
+    "timestamp": "2026-08-01T18:28:01",
+    "customer_name": "Ana Jackson",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-0DE4DA04",
+    "amount_inr": 2541.02,
+    "timestamp": "2026-08-12T09:05:33",
+    "customer_name": "Crystal Meyers",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-309308FB",
+    "amount_inr": 7714.58,
+    "timestamp": "2026-08-09T18:49:00",
+    "customer_name": "Daniel Wilson",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-56E663A4",
+    "amount_inr": 4545.03,
+    "timestamp": "2026-08-04T04:10:00",
+    "customer_name": "Betty White",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-5009AC66",
+    "amount_inr": 5486.71,
+    "timestamp": "2026-08-13T20:22:59",
+    "customer_name": "Casey Becker",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-229B39FD",
+    "amount_inr": 8992.01,
+    "timestamp": "2026-08-23T06:33:25",
+    "customer_name": "Linda Jones",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-A504E26B",
+    "amount_inr": 1784.73,
+    "timestamp": "2026-08-01T02:04:12",
+    "customer_name": "James Thompson",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-B292444F",
+    "amount_inr": 3732.63,
+    "timestamp": "2026-08-10T21:49:49",
+    "customer_name": "Jessica Aguilar",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-A2638CEE",
+    "amount_inr": 5037.06,
+    "timestamp": "2026-08-07T02:19:11",
+    "customer_name": "Brent Collins",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-3E8980AC",
+    "amount_inr": 3072.2,
+    "timestamp": "2026-08-05T21:29:24",
+    "customer_name": "Jodi Arnold",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-3F46EADE",
+    "amount_inr": 3587.45,
+    "timestamp": "2026-08-06T19:31:48",
+    "customer_name": "Cathy Castillo",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-908DFBB7",
+    "amount_inr": 641.4,
+    "timestamp": "2026-08-13T22:45:27",
+    "customer_name": "Rachel Hunter",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-3EF8F48F",
+    "amount_inr": 9283.23,
+    "timestamp": "2026-08-06T12:24:22",
+    "customer_name": "Brandon Johnson",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-5601A2B4",
+    "amount_inr": 3516.15,
+    "timestamp": "2026-08-23T11:22:12",
+    "customer_name": "Natalie Hopkins",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-3009B36A",
+    "amount_inr": 7936.69,
+    "timestamp": "2026-08-24T09:58:15",
+    "customer_name": "Leslie Cantu",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-A02C9E38",
+    "amount_inr": 1391.88,
+    "timestamp": "2026-08-11T17:28:25",
+    "customer_name": "Brian Gonzalez",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-920621CA",
+    "amount_inr": 3391.82,
+    "timestamp": "2026-08-11T12:40:18",
+    "customer_name": "William Liu",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-10A0AC7D",
+    "amount_inr": 2856.0,
+    "timestamp": "2026-08-19T14:42:07",
+    "customer_name": "Vincent Moyer",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-90ABB631",
+    "amount_inr": 8097.57,
+    "timestamp": "2026-08-25T15:27:01",
+    "customer_name": "Jennifer Brewer",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-322771B2",
+    "amount_inr": 3002.44,
+    "timestamp": "2026-08-19T10:12:23",
+    "customer_name": "Lindsey Spears",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-7AF5841E",
+    "amount_inr": 2972.68,
+    "timestamp": "2026-08-14T15:18:30",
+    "customer_name": "Hannah Taylor",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-F5A19F5A",
+    "amount_inr": 3026.83,
+    "timestamp": "2026-08-21T06:45:36",
+    "customer_name": "William Martin",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-19FDDAE5",
+    "amount_inr": 5624.17,
+    "timestamp": "2026-08-16T18:53:05",
+    "customer_name": "Laura Richards",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-D2C8761A",
+    "amount_inr": 1476.65,
+    "timestamp": "2026-07-27T05:54:20",
+    "customer_name": "Christina Martinez",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-F7D1D519",
+    "amount_inr": 3673.15,
+    "timestamp": "2026-08-25T05:11:16",
+    "customer_name": "Michael Morrison",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-08D6F37C",
+    "amount_inr": 790.85,
+    "timestamp": "2026-07-30T16:41:44",
+    "customer_name": "Danny Steele",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-8571B3B4",
+    "amount_inr": 5528.26,
+    "timestamp": "2026-08-03T02:36:41",
+    "customer_name": "Annette Adams",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-238AD9FD",
+    "amount_inr": 4233.05,
+    "timestamp": "2026-07-27T08:01:29",
+    "customer_name": "Alexander Smith",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-637E224C",
+    "amount_inr": 7582.81,
+    "timestamp": "2026-08-24T04:25:13",
+    "customer_name": "Lauren Jackson",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-8E65558A",
+    "amount_inr": 7852.82,
+    "timestamp": "2026-07-28T15:52:06",
+    "customer_name": "Crystal Kline",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-F42DD5C1",
+    "amount_inr": 4738.16,
+    "timestamp": "2026-07-30T08:22:47",
+    "customer_name": "Kristin Huffman",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-24DFF972",
+    "amount_inr": 5291.02,
+    "timestamp": "2026-08-18T06:09:40",
+    "customer_name": "Whitney Gutierrez",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-52BFA191",
+    "amount_inr": 6340.07,
+    "timestamp": "2026-08-13T01:26:40",
+    "customer_name": "Jessica Lara",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-52E57BE9",
+    "amount_inr": 5900.26,
+    "timestamp": "2026-08-12T14:56:33",
+    "customer_name": "Laura Moran",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-83C49019",
+    "amount_inr": 2099.53,
+    "timestamp": "2026-08-23T19:03:36",
+    "customer_name": "Travis Farley",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-CAEB9F2E",
+    "amount_inr": 6722.46,
+    "timestamp": "2026-08-02T06:39:20",
+    "customer_name": "Ashley Smith",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-FF5DF6A8",
+    "amount_inr": 6378.59,
+    "timestamp": "2026-07-31T23:20:08",
+    "customer_name": "Gavin Berry",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-D9678E36",
+    "amount_inr": 1970.26,
+    "timestamp": "2026-08-01T14:54:42",
+    "customer_name": "Jacqueline Zimmerman",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-D7BAF63D",
+    "amount_inr": 2939.25,
+    "timestamp": "2026-08-24T12:15:31",
+    "customer_name": "Ralph Gillespie",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-63EA8DF9",
+    "amount_inr": 2615.43,
+    "timestamp": "2026-08-04T05:59:32",
+    "customer_name": "Derrick Griffin",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-6E7F296C",
+    "amount_inr": 4898.61,
+    "timestamp": "2026-08-02T19:21:24",
+    "customer_name": "Bridget Lara",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-2AA9C4B5",
+    "amount_inr": 5444.41,
+    "timestamp": "2026-08-22T19:01:51",
+    "customer_name": "Mrs. Shannon Ward",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-51354102",
+    "amount_inr": 9908.65,
+    "timestamp": "2026-08-07T00:10:48",
+    "customer_name": "Steven Shea",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-DAF08B37",
+    "amount_inr": 6020.44,
+    "timestamp": "2026-08-15T00:10:49",
+    "customer_name": "Brenda Randolph",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-99F38892",
+    "amount_inr": 5194.23,
+    "timestamp": "2026-08-08T01:23:10",
+    "customer_name": "Renee Medina",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-7D721CE1",
+    "amount_inr": 3501.38,
+    "timestamp": "2026-08-12T03:37:47",
+    "customer_name": "Timothy Lee",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-4B3D64F2",
+    "amount_inr": 3532.76,
+    "timestamp": "2026-08-14T02:18:06",
+    "customer_name": "Jeremy Hebert",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-4251293D",
+    "amount_inr": 3864.55,
+    "timestamp": "2026-08-14T13:47:14",
+    "customer_name": "Keith Hamilton",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-0916D568",
+    "amount_inr": 1696.37,
+    "timestamp": "2026-08-07T19:30:42",
+    "customer_name": "John Gibson",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-055720BF",
+    "amount_inr": 4793.08,
+    "timestamp": "2026-08-16T19:14:33",
+    "customer_name": "Jessica Pierce",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-87C71F8B",
+    "amount_inr": 5575.4,
+    "timestamp": "2026-08-20T05:37:05",
+    "customer_name": "Emma Nixon",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-A9153DAB",
+    "amount_inr": 1462.67,
+    "timestamp": "2026-08-24T07:57:37",
+    "customer_name": "Dalton Miller",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-C851D041",
+    "amount_inr": 5834.26,
+    "timestamp": "2026-07-31T21:00:52",
+    "customer_name": "Julie Bartlett",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-8F6DAB90",
+    "amount_inr": 7844.68,
+    "timestamp": "2026-08-24T02:00:48",
+    "customer_name": "Shawn Rivera",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-5E993A55",
+    "amount_inr": 6400.13,
+    "timestamp": "2026-08-17T22:57:22",
+    "customer_name": "Andrew Riley",
+    "item_category": "Healthcare"
+  },
+  {
+    "merch_txn_id": "TXN-B1B09D73",
+    "amount_inr": 9136.65,
+    "timestamp": "2026-08-01T01:35:12",
+    "customer_name": "Barbara Newton",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-E15286F2",
+    "amount_inr": 7625.71,
+    "timestamp": "2026-08-01T11:02:53",
+    "customer_name": "Ashley Miller",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-99B145CC",
+    "amount_inr": 6965.79,
+    "timestamp": "2026-08-01T00:16:27",
+    "customer_name": "Jimmy Davidson",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-BD422AEF",
+    "amount_inr": 8261.1,
+    "timestamp": "2026-08-12T02:32:07",
+    "customer_name": "Rachel Lopez",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-3A9AF38C",
+    "amount_inr": 8671.69,
+    "timestamp": "2026-08-06T07:23:43",
+    "customer_name": "Monica Baker",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-07D832A6",
+    "amount_inr": 3239.92,
+    "timestamp": "2026-08-18T09:42:14",
+    "customer_name": "William Bradshaw",
+    "item_category": "Electronics"
+  },
+  {
+    "merch_txn_id": "TXN-D44AE118",
+    "amount_inr": 435.27,
+    "timestamp": "2026-08-21T02:38:58",
+    "customer_name": "Donna Fernandez",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-D57E8C06",
+    "amount_inr": 7913.03,
+    "timestamp": "2026-08-05T06:44:23",
+    "customer_name": "Juan Watkins",
+    "item_category": "Education"
+  },
+  {
+    "merch_txn_id": "TXN-6581367D",
+    "amount_inr": 9782.54,
+    "timestamp": "2026-08-03T12:23:19",
+    "customer_name": "Victor Stevens",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-A48220CA",
+    "amount_inr": 8011.32,
+    "timestamp": "2026-08-13T09:51:37",
+    "customer_name": "Bianca Krause",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-311A9FE8",
+    "amount_inr": 5129.9,
+    "timestamp": "2026-08-05T03:37:05",
+    "customer_name": "James Edwards",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-68A0B29B",
+    "amount_inr": 5161.66,
+    "timestamp": "2026-08-02T14:09:23",
+    "customer_name": "Kristen Robinson",
+    "item_category": "Travel"
+  },
+  {
+    "merch_txn_id": "TXN-B59E9F8A",
+    "amount_inr": 7470.67,
+    "timestamp": "2026-08-02T04:02:04",
+    "customer_name": "Veronica Anderson",
+    "item_category": "Entertainment"
+  },
+  {
+    "merch_txn_id": "TXN-D94892E8",
+    "amount_inr": 9957.67,
+    "timestamp": "2026-08-23T12:56:21",
+    "customer_name": "Tony White",
+    "item_category": "Clothing"
+  },
+  {
+    "merch_txn_id": "TXN-C592494B",
+    "amount_inr": 600.44,
+    "timestamp": "2026-08-13T08:39:09",
+    "customer_name": "Sara Torres",
+    "item_category": "Food"
+  },
+  {
+    "merch_txn_id": "TXN-4B3BE66F",
+    "amount_inr": 3606.77,
+    "timestamp": "2026-08-23T19:48:53",
+    "customer_name": "Robert Cabrera",
+    "item_category": "Healthcare"
+  }
+]

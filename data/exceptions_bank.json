@@ -1,0 +1,912 @@
+[
+  {
+    "bank_ref_id": "BANK-B62D24A0",
+    "merch_ref_id": null,
+    "settlement_amount": 3206.49,
+    "settlement_time": "2026-08-25T14:15:55",
+    "narration": "SETTLEMENT-FEE-INC-TXN-0A20F15C-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-AA326580",
+    "merch_ref_id": null,
+    "settlement_amount": 9754.03,
+    "settlement_time": "2026-08-02T11:06:49",
+    "narration": "SETTLEMENT-FEE-INC-TXN-5C503297-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-2A9CE45B",
+    "merch_ref_id": null,
+    "settlement_amount": 5558.01,
+    "settlement_time": "2026-08-10T11:49:45",
+    "narration": "SETTLEMENT-FEE-INC-TXN-6E3B337E-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-8DB8B81E",
+    "merch_ref_id": null,
+    "settlement_amount": 2733.87,
+    "settlement_time": "2026-07-31T01:17:28",
+    "narration": "SETTLEMENT-FEE-INC-TXN-2D33A636-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-A197BA7C",
+    "merch_ref_id": null,
+    "settlement_amount": 4928.56,
+    "settlement_time": "2026-08-14T04:35:08",
+    "narration": "SETTLEMENT-FEE-INC-TXN-40274019-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-A0AF6AAD",
+    "merch_ref_id": null,
+    "settlement_amount": 7051.79,
+    "settlement_time": "2026-08-19T09:33:35",
+    "narration": "SETTLEMENT-FEE-INC-TXN-35A252D7-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-AE920F82",
+    "merch_ref_id": null,
+    "settlement_amount": 841.55,
+    "settlement_time": "2026-08-19T03:49:21",
+    "narration": "SETTLEMENT-FEE-INC-TXN-2546A6C7-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-CA98E546",
+    "merch_ref_id": null,
+    "settlement_amount": 291.54,
+    "settlement_time": "2026-08-23T20:18:32",
+    "narration": "SETTLEMENT-FEE-INC-TXN-5D2A472E-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-88DBCB83",
+    "merch_ref_id": null,
+    "settlement_amount": 9094.1,
+    "settlement_time": "2026-08-14T04:23:53",
+    "narration": "SETTLEMENT-FEE-INC-TXN-746169B7-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0420BCCA",
+    "merch_ref_id": null,
+    "settlement_amount": 6505.1,
+    "settlement_time": "2026-07-30T23:42:32",
+    "narration": "SETTLEMENT-FEE-INC-TXN-E16FAA9B-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-A504F9C1",
+    "merch_ref_id": null,
+    "settlement_amount": 7330.36,
+    "settlement_time": "2026-07-29T05:29:00",
+    "narration": "SETTLEMENT-FEE-INC-TXN-A258DC7B-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-35068817",
+    "merch_ref_id": null,
+    "settlement_amount": 8556.44,
+    "settlement_time": "2026-08-15T19:52:19",
+    "narration": "SETTLEMENT-FEE-INC-TXN-D27044B0-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-BB992646",
+    "merch_ref_id": null,
+    "settlement_amount": 7472.28,
+    "settlement_time": "2026-08-01T01:20:37",
+    "narration": "SETTLEMENT-FEE-INC-TXN-655333B1-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-2C0209F2",
+    "merch_ref_id": null,
+    "settlement_amount": 2672.55,
+    "settlement_time": "2026-08-10T12:36:53",
+    "narration": "SETTLEMENT-FEE-INC-TXN-7EC0F262-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-606B875A",
+    "merch_ref_id": null,
+    "settlement_amount": 3650.68,
+    "settlement_time": "2026-08-06T01:53:18",
+    "narration": "SETTLEMENT-FEE-INC-TXN-E701056C-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0FFDB86E",
+    "merch_ref_id": null,
+    "settlement_amount": 9713.11,
+    "settlement_time": "2026-07-30T21:09:58",
+    "narration": "SETTLEMENT-FEE-INC-TXN-5905F053-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-CB518E12",
+    "merch_ref_id": null,
+    "settlement_amount": 8335.89,
+    "settlement_time": "2026-08-06T07:54:12",
+    "narration": "SETTLEMENT-FEE-INC-TXN-8AF41322-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-07C5CD36",
+    "merch_ref_id": null,
+    "settlement_amount": 4691.73,
+    "settlement_time": "2026-08-04T06:48:57",
+    "narration": "SETTLEMENT-FEE-INC-TXN-58119230-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-E63FE58D",
+    "merch_ref_id": null,
+    "settlement_amount": 8256.75,
+    "settlement_time": "2026-08-17T08:42:44",
+    "narration": "SETTLEMENT-FEE-INC-TXN-18B8C288-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-9217A587",
+    "merch_ref_id": null,
+    "settlement_amount": 1493.25,
+    "settlement_time": "2026-08-02T09:23:37",
+    "narration": "SETTLEMENT-FEE-INC-TXN-6A8B01D6-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-6B6A8DD2",
+    "merch_ref_id": null,
+    "settlement_amount": 9458.8,
+    "settlement_time": "2026-08-07T11:57:02",
+    "narration": "SETTLEMENT-FEE-INC-TXN-50C5409F-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-CAB95678",
+    "merch_ref_id": null,
+    "settlement_amount": 5640.18,
+    "settlement_time": "2026-08-03T22:12:00",
+    "narration": "SETTLEMENT-FEE-INC-TXN-360F5798-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-F691CF3D",
+    "merch_ref_id": null,
+    "settlement_amount": 4077.0,
+    "settlement_time": "2026-08-03T23:35:37",
+    "narration": "SETTLEMENT-FEE-INC-TXN-CBA332A9-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-96F24C34",
+    "merch_ref_id": null,
+    "settlement_amount": 8700.06,
+    "settlement_time": "2026-08-05T03:13:20",
+    "narration": "SETTLEMENT-FEE-INC-TXN-50183ACD-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-FAF9EB06",
+    "merch_ref_id": null,
+    "settlement_amount": 4187.24,
+    "settlement_time": "2026-07-28T10:40:14",
+    "narration": "SETTLEMENT-FEE-INC-TXN-D948F9D9-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-5654BE7F",
+    "merch_ref_id": null,
+    "settlement_amount": 5565.41,
+    "settlement_time": "2026-08-16T13:55:15",
+    "narration": "SETTLEMENT-FEE-INC-TXN-B8D4E1D3-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-DF9AAF25",
+    "merch_ref_id": null,
+    "settlement_amount": 2646.03,
+    "settlement_time": "2026-07-30T06:28:36",
+    "narration": "SETTLEMENT-FEE-INC-TXN-11AE5BCF-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-C35C694D",
+    "merch_ref_id": null,
+    "settlement_amount": 2541.02,
+    "settlement_time": "2026-08-12T09:05:33",
+    "narration": "SETTLEMENT-FEE-INC-TXN-0DE4DA04-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-5A6B0EB8",
+    "merch_ref_id": null,
+    "settlement_amount": 7714.58,
+    "settlement_time": "2026-08-09T18:49:00",
+    "narration": "SETTLEMENT-FEE-INC-TXN-309308FB-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0C89EDC1",
+    "merch_ref_id": null,
+    "settlement_amount": 4545.03,
+    "settlement_time": "2026-08-04T04:10:00",
+    "narration": "SETTLEMENT-FEE-INC-TXN-56E663A4-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-48E5DC9A",
+    "merch_ref_id": null,
+    "settlement_amount": 8992.01,
+    "settlement_time": "2026-08-23T06:33:25",
+    "narration": "SETTLEMENT-FEE-INC-TXN-229B39FD-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-A6FEB31E",
+    "merch_ref_id": null,
+    "settlement_amount": 5037.06,
+    "settlement_time": "2026-08-07T02:19:11",
+    "narration": "SETTLEMENT-FEE-INC-TXN-A2638CEE-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-D65D0B8B",
+    "merch_ref_id": null,
+    "settlement_amount": 3072.2,
+    "settlement_time": "2026-08-05T21:29:24",
+    "narration": "SETTLEMENT-FEE-INC-TXN-3E8980AC-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-22870931",
+    "merch_ref_id": null,
+    "settlement_amount": 9283.23,
+    "settlement_time": "2026-08-06T12:24:22",
+    "narration": "SETTLEMENT-FEE-INC-TXN-3EF8F48F-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-6D1192FE",
+    "merch_ref_id": null,
+    "settlement_amount": 3391.82,
+    "settlement_time": "2026-08-11T12:40:18",
+    "narration": "SETTLEMENT-FEE-INC-TXN-920621CA-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-2AB3581D",
+    "merch_ref_id": null,
+    "settlement_amount": 2856.0,
+    "settlement_time": "2026-08-19T14:42:07",
+    "narration": "SETTLEMENT-FEE-INC-TXN-10A0AC7D-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-B47304F7",
+    "merch_ref_id": null,
+    "settlement_amount": 2972.68,
+    "settlement_time": "2026-08-14T15:18:30",
+    "narration": "SETTLEMENT-FEE-INC-TXN-7AF5841E-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-D872D3B3",
+    "merch_ref_id": null,
+    "settlement_amount": 3026.83,
+    "settlement_time": "2026-08-21T06:45:36",
+    "narration": "SETTLEMENT-FEE-INC-TXN-F5A19F5A-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-2B76BC7B",
+    "merch_ref_id": null,
+    "settlement_amount": 5624.17,
+    "settlement_time": "2026-08-16T18:53:05",
+    "narration": "SETTLEMENT-FEE-INC-TXN-19FDDAE5-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-AA2224FF",
+    "merch_ref_id": null,
+    "settlement_amount": 790.85,
+    "settlement_time": "2026-07-30T16:41:44",
+    "narration": "SETTLEMENT-FEE-INC-TXN-08D6F37C-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0F964D24",
+    "merch_ref_id": null,
+    "settlement_amount": 5291.02,
+    "settlement_time": "2026-08-18T06:09:40",
+    "narration": "SETTLEMENT-FEE-INC-TXN-24DFF972-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-A09F9C64",
+    "merch_ref_id": null,
+    "settlement_amount": 5900.26,
+    "settlement_time": "2026-08-12T14:56:33",
+    "narration": "SETTLEMENT-FEE-INC-TXN-52E57BE9-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-C98A8939",
+    "merch_ref_id": null,
+    "settlement_amount": 2099.53,
+    "settlement_time": "2026-08-23T19:03:36",
+    "narration": "SETTLEMENT-FEE-INC-TXN-83C49019-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-5996A292",
+    "merch_ref_id": null,
+    "settlement_amount": 6722.46,
+    "settlement_time": "2026-08-02T06:39:20",
+    "narration": "SETTLEMENT-FEE-INC-TXN-CAEB9F2E-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-3F068C39",
+    "merch_ref_id": null,
+    "settlement_amount": 6378.59,
+    "settlement_time": "2026-07-31T23:20:08",
+    "narration": "SETTLEMENT-FEE-INC-TXN-FF5DF6A8-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-98689AB2",
+    "merch_ref_id": null,
+    "settlement_amount": 2615.43,
+    "settlement_time": "2026-08-04T05:59:32",
+    "narration": "SETTLEMENT-FEE-INC-TXN-63EA8DF9-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0D20939C",
+    "merch_ref_id": null,
+    "settlement_amount": 4898.61,
+    "settlement_time": "2026-08-02T19:21:24",
+    "narration": "SETTLEMENT-FEE-INC-TXN-6E7F296C-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-1162EC3B",
+    "merch_ref_id": null,
+    "settlement_amount": 9908.65,
+    "settlement_time": "2026-08-07T00:10:48",
+    "narration": "SETTLEMENT-FEE-INC-TXN-51354102-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-2B17CF91",
+    "merch_ref_id": null,
+    "settlement_amount": 6020.44,
+    "settlement_time": "2026-08-15T00:10:49",
+    "narration": "SETTLEMENT-FEE-INC-TXN-DAF08B37-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-1B67157B",
+    "merch_ref_id": null,
+    "settlement_amount": 3532.76,
+    "settlement_time": "2026-08-14T02:18:06",
+    "narration": "SETTLEMENT-FEE-INC-TXN-4B3D64F2-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-25133A1F",
+    "merch_ref_id": null,
+    "settlement_amount": 5575.4,
+    "settlement_time": "2026-08-20T05:37:05",
+    "narration": "SETTLEMENT-FEE-INC-TXN-87C71F8B-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-0F8DEDAD",
+    "merch_ref_id": null,
+    "settlement_amount": 5834.26,
+    "settlement_time": "2026-07-31T21:00:52",
+    "narration": "SETTLEMENT-FEE-INC-TXN-C851D041-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-ABA9C798",
+    "merch_ref_id": null,
+    "settlement_amount": 7844.68,
+    "settlement_time": "2026-08-24T02:00:48",
+    "narration": "SETTLEMENT-FEE-INC-TXN-8F6DAB90-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-94732B17",
+    "merch_ref_id": null,
+    "settlement_amount": 9136.65,
+    "settlement_time": "2026-08-01T01:35:12",
+    "narration": "SETTLEMENT-FEE-INC-TXN-B1B09D73-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-3FF56971",
+    "merch_ref_id": null,
+    "settlement_amount": 6965.79,
+    "settlement_time": "2026-08-01T00:16:27",
+    "narration": "SETTLEMENT-FEE-INC-TXN-99B145CC-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-847CB4A8",
+    "merch_ref_id": null,
+    "settlement_amount": 8671.69,
+    "settlement_time": "2026-08-06T07:23:43",
+    "narration": "SETTLEMENT-FEE-INC-TXN-3A9AF38C-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-1E274343",
+    "merch_ref_id": null,
+    "settlement_amount": 3239.92,
+    "settlement_time": "2026-08-18T09:42:14",
+    "narration": "SETTLEMENT-FEE-INC-TXN-07D832A6-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-ACB859EA",
+    "merch_ref_id": null,
+    "settlement_amount": 5129.9,
+    "settlement_time": "2026-08-05T03:37:05",
+    "narration": "SETTLEMENT-FEE-INC-TXN-311A9FE8-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-6F484C5F",
+    "merch_ref_id": null,
+    "settlement_amount": 7470.67,
+    "settlement_time": "2026-08-02T04:02:04",
+    "narration": "SETTLEMENT-FEE-INC-TXN-B59E9F8A-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-F80A86B0",
+    "merch_ref_id": null,
+    "settlement_amount": 600.44,
+    "settlement_time": "2026-08-13T08:39:09",
+    "narration": "SETTLEMENT-FEE-INC-TXN-C592494B-FAILED"
+  },
+  {
+    "bank_ref_id": "BANK-C3EE5D11",
+    "merch_ref_id": "TXN-7BE90CF0",
+    "settlement_amount": 8584.09,
+    "settlement_time": "2026-08-23T22:54:41",
+    "narration": "NEFT-RAZORPAY-TXN-7BE90CF0"
+  },
+  {
+    "bank_ref_id": "BANK-E62B4582",
+    "merch_ref_id": "TXN-CC9CE36B",
+    "settlement_amount": 8307.14,
+    "settlement_time": "2026-08-25T04:07:22",
+    "narration": "NEFT-RAZORPAY-TXN-CC9CE36B"
+  },
+  {
+    "bank_ref_id": "BANK-FBD03DB5",
+    "merch_ref_id": "TXN-510EB551",
+    "settlement_amount": 2552.34,
+    "settlement_time": "2026-08-19T10:02:45",
+    "narration": "NEFT-RAZORPAY-TXN-510EB551"
+  },
+  {
+    "bank_ref_id": "BANK-91CB2730",
+    "merch_ref_id": "TXN-97A3E1F2",
+    "settlement_amount": 4973.41,
+    "settlement_time": "2026-08-06T02:55:18",
+    "narration": "NEFT-RAZORPAY-TXN-97A3E1F2"
+  },
+  {
+    "bank_ref_id": "BANK-CA9CA12B",
+    "merch_ref_id": "TXN-18FF4506",
+    "settlement_amount": 1841.56,
+    "settlement_time": "2026-08-14T08:19:55",
+    "narration": "NEFT-RAZORPAY-TXN-18FF4506"
+  },
+  {
+    "bank_ref_id": "BANK-B027FC95",
+    "merch_ref_id": "TXN-47FD858A",
+    "settlement_amount": 1399.79,
+    "settlement_time": "2026-08-09T08:52:11",
+    "narration": "NEFT-RAZORPAY-TXN-47FD858A"
+  },
+  {
+    "bank_ref_id": "BANK-1C962314",
+    "merch_ref_id": "TXN-5001F802",
+    "settlement_amount": 4233.47,
+    "settlement_time": "2026-08-24T17:10:45",
+    "narration": "NEFT-RAZORPAY-TXN-5001F802"
+  },
+  {
+    "bank_ref_id": "BANK-519A0F1D",
+    "merch_ref_id": "TXN-315CAEEC",
+    "settlement_amount": 2865.94,
+    "settlement_time": "2026-08-25T08:10:28",
+    "narration": "NEFT-RAZORPAY-TXN-315CAEEC"
+  },
+  {
+    "bank_ref_id": "BANK-93424634",
+    "merch_ref_id": "TXN-209CEB86",
+    "settlement_amount": 8355.41,
+    "settlement_time": "2026-08-21T22:32:51",
+    "narration": "NEFT-RAZORPAY-TXN-209CEB86"
+  },
+  {
+    "bank_ref_id": "BANK-8D156D37",
+    "merch_ref_id": "TXN-9D628C1B",
+    "settlement_amount": 571.64,
+    "settlement_time": "2026-08-09T13:35:43",
+    "narration": "NEFT-RAZORPAY-TXN-9D628C1B"
+  },
+  {
+    "bank_ref_id": "BANK-62AE680A",
+    "merch_ref_id": "TXN-22975717",
+    "settlement_amount": 147.74,
+    "settlement_time": "2026-08-02T20:27:48",
+    "narration": "NEFT-RAZORPAY-TXN-22975717"
+  },
+  {
+    "bank_ref_id": "BANK-A06ED012",
+    "merch_ref_id": "TXN-9C5518C5",
+    "settlement_amount": 7849.66,
+    "settlement_time": "2026-08-01T10:29:50",
+    "narration": "NEFT-RAZORPAY-TXN-9C5518C5"
+  },
+  {
+    "bank_ref_id": "BANK-5E6E001B",
+    "merch_ref_id": "TXN-730480A7",
+    "settlement_amount": 7906.15,
+    "settlement_time": "2026-08-04T15:14:31",
+    "narration": "NEFT-RAZORPAY-TXN-730480A7"
+  },
+  {
+    "bank_ref_id": "BANK-EA708B9D",
+    "merch_ref_id": "TXN-02E317E0",
+    "settlement_amount": 6436.85,
+    "settlement_time": "2026-08-09T10:34:22",
+    "narration": "NEFT-RAZORPAY-TXN-02E317E0"
+  },
+  {
+    "bank_ref_id": "BANK-2DCD0D39",
+    "merch_ref_id": "TXN-DEA97D79",
+    "settlement_amount": 8052.88,
+    "settlement_time": "2026-08-11T14:33:16",
+    "narration": "NEFT-RAZORPAY-TXN-DEA97D79"
+  },
+  {
+    "bank_ref_id": "BANK-917067EC",
+    "merch_ref_id": "TXN-0A1A833A",
+    "settlement_amount": 7717.58,
+    "settlement_time": "2026-08-03T10:33:35",
+    "narration": "NEFT-RAZORPAY-TXN-0A1A833A"
+  },
+  {
+    "bank_ref_id": "BANK-05F289D7",
+    "merch_ref_id": "TXN-DB06A3A8",
+    "settlement_amount": 5514.71,
+    "settlement_time": "2026-07-31T18:18:27",
+    "narration": "NEFT-RAZORPAY-TXN-DB06A3A8"
+  },
+  {
+    "bank_ref_id": "BANK-1F281C15",
+    "merch_ref_id": "TXN-E6B1E0AE",
+    "settlement_amount": 1553.3,
+    "settlement_time": "2026-08-19T18:34:46",
+    "narration": "NEFT-RAZORPAY-TXN-E6B1E0AE"
+  },
+  {
+    "bank_ref_id": "BANK-24B86890",
+    "merch_ref_id": "TXN-066B6A4D",
+    "settlement_amount": 1960.99,
+    "settlement_time": "2026-08-21T19:59:38",
+    "narration": "NEFT-RAZORPAY-TXN-066B6A4D"
+  },
+  {
+    "bank_ref_id": "BANK-3179A29A",
+    "merch_ref_id": "TXN-12C56BDB",
+    "settlement_amount": 4227.22,
+    "settlement_time": "2026-08-09T03:09:25",
+    "narration": "NEFT-RAZORPAY-TXN-12C56BDB"
+  },
+  {
+    "bank_ref_id": "BANK-801533F3",
+    "merch_ref_id": "TXN-33056174",
+    "settlement_amount": 5002.78,
+    "settlement_time": "2026-08-15T15:18:30",
+    "narration": "NEFT-RAZORPAY-TXN-33056174"
+  },
+  {
+    "bank_ref_id": "BANK-6904374E",
+    "merch_ref_id": "TXN-186DC0F7",
+    "settlement_amount": 1609.24,
+    "settlement_time": "2026-07-29T21:58:48",
+    "narration": "NEFT-RAZORPAY-TXN-186DC0F7"
+  },
+  {
+    "bank_ref_id": "BANK-83B01AF8",
+    "merch_ref_id": "TXN-D101BF97",
+    "settlement_amount": 6912.76,
+    "settlement_time": "2026-08-10T05:41:35",
+    "narration": "NEFT-RAZORPAY-TXN-D101BF97"
+  },
+  {
+    "bank_ref_id": "BANK-5972B15F",
+    "merch_ref_id": "TXN-5698B032",
+    "settlement_amount": 7224.14,
+    "settlement_time": "2026-07-31T03:59:25",
+    "narration": "NEFT-RAZORPAY-TXN-5698B032"
+  },
+  {
+    "bank_ref_id": "BANK-92487FF4",
+    "merch_ref_id": "TXN-EAA630C4",
+    "settlement_amount": 9295.87,
+    "settlement_time": "2026-07-29T15:21:04",
+    "narration": "NEFT-RAZORPAY-TXN-EAA630C4"
+  },
+  {
+    "bank_ref_id": "BANK-BD8941AB",
+    "merch_ref_id": "TXN-4282ECEE",
+    "settlement_amount": 9695.15,
+    "settlement_time": "2026-08-06T10:08:49",
+    "narration": "NEFT-RAZORPAY-TXN-4282ECEE"
+  },
+  {
+    "bank_ref_id": "BANK-454E36BA",
+    "merch_ref_id": "TXN-7302C51F",
+    "settlement_amount": 9100.85,
+    "settlement_time": "2026-08-03T00:42:41",
+    "narration": "NEFT-RAZORPAY-TXN-7302C51F"
+  },
+  {
+    "bank_ref_id": "BANK-6E7D2074",
+    "merch_ref_id": "TXN-1AC9FF3F",
+    "settlement_amount": 9235.56,
+    "settlement_time": "2026-08-03T05:43:31",
+    "narration": "NEFT-RAZORPAY-TXN-1AC9FF3F"
+  },
+  {
+    "bank_ref_id": "BANK-9B6F7CAA",
+    "merch_ref_id": "TXN-C8BC2E4A",
+    "settlement_amount": 9497.9,
+    "settlement_time": "2026-08-25T20:55:08",
+    "narration": "NEFT-RAZORPAY-TXN-C8BC2E4A"
+  },
+  {
+    "bank_ref_id": "BANK-3F458A9B",
+    "merch_ref_id": "TXN-97DB7DEF",
+    "settlement_amount": 6460.03,
+    "settlement_time": "2026-08-07T23:54:27",
+    "narration": "NEFT-RAZORPAY-TXN-97DB7DEF"
+  },
+  {
+    "bank_ref_id": "BANK-07C023AE",
+    "merch_ref_id": "TXN-0011081A",
+    "settlement_amount": 5347.18,
+    "settlement_time": "2026-08-24T17:25:05",
+    "narration": "NEFT-RAZORPAY-TXN-0011081A"
+  },
+  {
+    "bank_ref_id": "BANK-767AC3EF",
+    "merch_ref_id": "TXN-925CFDF1",
+    "settlement_amount": 4803.72,
+    "settlement_time": "2026-08-10T02:34:03",
+    "narration": "NEFT-RAZORPAY-TXN-925CFDF1"
+  },
+  {
+    "bank_ref_id": "BANK-B3215FCD",
+    "merch_ref_id": "TXN-164C2018",
+    "settlement_amount": 5320.93,
+    "settlement_time": "2026-08-01T18:28:01",
+    "narration": "NEFT-RAZORPAY-TXN-164C2018"
+  },
+  {
+    "bank_ref_id": "BANK-A8E26B11",
+    "merch_ref_id": "TXN-5009AC66",
+    "settlement_amount": 5376.98,
+    "settlement_time": "2026-08-13T20:22:59",
+    "narration": "NEFT-RAZORPAY-TXN-5009AC66"
+  },
+  {
+    "bank_ref_id": "BANK-1F1CB76B",
+    "merch_ref_id": "TXN-A504E26B",
+    "settlement_amount": 1749.04,
+    "settlement_time": "2026-08-01T02:04:12",
+    "narration": "NEFT-RAZORPAY-TXN-A504E26B"
+  },
+  {
+    "bank_ref_id": "BANK-551EC090",
+    "merch_ref_id": "TXN-B292444F",
+    "settlement_amount": 3657.98,
+    "settlement_time": "2026-08-10T21:49:49",
+    "narration": "NEFT-RAZORPAY-TXN-B292444F"
+  },
+  {
+    "bank_ref_id": "BANK-59FFF765",
+    "merch_ref_id": "TXN-3F46EADE",
+    "settlement_amount": 3515.7,
+    "settlement_time": "2026-08-06T19:31:48",
+    "narration": "NEFT-RAZORPAY-TXN-3F46EADE"
+  },
+  {
+    "bank_ref_id": "BANK-DF14F8C3",
+    "merch_ref_id": "TXN-908DFBB7",
+    "settlement_amount": 628.57,
+    "settlement_time": "2026-08-13T22:45:27",
+    "narration": "NEFT-RAZORPAY-TXN-908DFBB7"
+  },
+  {
+    "bank_ref_id": "BANK-2C100B90",
+    "merch_ref_id": "TXN-5601A2B4",
+    "settlement_amount": 3445.83,
+    "settlement_time": "2026-08-23T11:22:12",
+    "narration": "NEFT-RAZORPAY-TXN-5601A2B4"
+  },
+  {
+    "bank_ref_id": "BANK-AA48903A",
+    "merch_ref_id": "TXN-3009B36A",
+    "settlement_amount": 7777.96,
+    "settlement_time": "2026-08-24T09:58:15",
+    "narration": "NEFT-RAZORPAY-TXN-3009B36A"
+  },
+  {
+    "bank_ref_id": "BANK-75EB36EF",
+    "merch_ref_id": "TXN-A02C9E38",
+    "settlement_amount": 1364.04,
+    "settlement_time": "2026-08-11T17:28:25",
+    "narration": "NEFT-RAZORPAY-TXN-A02C9E38"
+  },
+  {
+    "bank_ref_id": "BANK-58DCE574",
+    "merch_ref_id": "TXN-90ABB631",
+    "settlement_amount": 7935.62,
+    "settlement_time": "2026-08-25T15:27:01",
+    "narration": "NEFT-RAZORPAY-TXN-90ABB631"
+  },
+  {
+    "bank_ref_id": "BANK-31F8A983",
+    "merch_ref_id": "TXN-322771B2",
+    "settlement_amount": 2942.39,
+    "settlement_time": "2026-08-19T10:12:23",
+    "narration": "NEFT-RAZORPAY-TXN-322771B2"
+  },
+  {
+    "bank_ref_id": "BANK-6CE74540",
+    "merch_ref_id": "TXN-D2C8761A",
+    "settlement_amount": 1447.12,
+    "settlement_time": "2026-07-27T05:54:20",
+    "narration": "NEFT-RAZORPAY-TXN-D2C8761A"
+  },
+  {
+    "bank_ref_id": "BANK-1C9ACB1A",
+    "merch_ref_id": "TXN-F7D1D519",
+    "settlement_amount": 3599.69,
+    "settlement_time": "2026-08-25T05:11:16",
+    "narration": "NEFT-RAZORPAY-TXN-F7D1D519"
+  },
+  {
+    "bank_ref_id": "BANK-B9934408",
+    "merch_ref_id": "TXN-8571B3B4",
+    "settlement_amount": 5417.69,
+    "settlement_time": "2026-08-03T02:36:41",
+    "narration": "NEFT-RAZORPAY-TXN-8571B3B4"
+  },
+  {
+    "bank_ref_id": "BANK-D20968D8",
+    "merch_ref_id": "TXN-238AD9FD",
+    "settlement_amount": 4148.39,
+    "settlement_time": "2026-07-27T08:01:29",
+    "narration": "NEFT-RAZORPAY-TXN-238AD9FD"
+  },
+  {
+    "bank_ref_id": "BANK-4017AA09",
+    "merch_ref_id": "TXN-637E224C",
+    "settlement_amount": 7431.15,
+    "settlement_time": "2026-08-24T04:25:13",
+    "narration": "NEFT-RAZORPAY-TXN-637E224C"
+  },
+  {
+    "bank_ref_id": "BANK-8CEB8613",
+    "merch_ref_id": "TXN-8E65558A",
+    "settlement_amount": 7695.76,
+    "settlement_time": "2026-07-28T15:52:06",
+    "narration": "NEFT-RAZORPAY-TXN-8E65558A"
+  },
+  {
+    "bank_ref_id": "BANK-700CEC55",
+    "merch_ref_id": "TXN-F42DD5C1",
+    "settlement_amount": 4643.4,
+    "settlement_time": "2026-07-30T08:22:47",
+    "narration": "NEFT-RAZORPAY-TXN-F42DD5C1"
+  },
+  {
+    "bank_ref_id": "BANK-964E3FE0",
+    "merch_ref_id": "TXN-52BFA191",
+    "settlement_amount": 6213.27,
+    "settlement_time": "2026-08-13T01:26:40",
+    "narration": "NEFT-RAZORPAY-TXN-52BFA191"
+  },
+  {
+    "bank_ref_id": "BANK-06559266",
+    "merch_ref_id": "TXN-D9678E36",
+    "settlement_amount": 1930.85,
+    "settlement_time": "2026-08-01T14:54:42",
+    "narration": "NEFT-RAZORPAY-TXN-D9678E36"
+  },
+  {
+    "bank_ref_id": "BANK-70F15BF8",
+    "merch_ref_id": "TXN-D7BAF63D",
+    "settlement_amount": 2880.47,
+    "settlement_time": "2026-08-24T12:15:31",
+    "narration": "NEFT-RAZORPAY-TXN-D7BAF63D"
+  },
+  {
+    "bank_ref_id": "BANK-B37EC21D",
+    "merch_ref_id": "TXN-2AA9C4B5",
+    "settlement_amount": 5335.52,
+    "settlement_time": "2026-08-22T19:01:51",
+    "narration": "NEFT-RAZORPAY-TXN-2AA9C4B5"
+  },
+  {
+    "bank_ref_id": "BANK-C27D9257",
+    "merch_ref_id": "TXN-99F38892",
+    "settlement_amount": 5090.35,
+    "settlement_time": "2026-08-08T01:23:10",
+    "narration": "NEFT-RAZORPAY-TXN-99F38892"
+  },
+  {
+    "bank_ref_id": "BANK-68C99912",
+    "merch_ref_id": "TXN-7D721CE1",
+    "settlement_amount": 3431.35,
+    "settlement_time": "2026-08-12T03:37:47",
+    "narration": "NEFT-RAZORPAY-TXN-7D721CE1"
+  },
+  {
+    "bank_ref_id": "BANK-8523113D",
+    "merch_ref_id": "TXN-4251293D",
+    "settlement_amount": 3787.26,
+    "settlement_time": "2026-08-14T13:47:14",
+    "narration": "NEFT-RAZORPAY-TXN-4251293D"
+  },
+  {
+    "bank_ref_id": "BANK-677230FB",
+    "merch_ref_id": "TXN-0916D568",
+    "settlement_amount": 1662.44,
+    "settlement_time": "2026-08-07T19:30:42",
+    "narration": "NEFT-RAZORPAY-TXN-0916D568"
+  },
+  {
+    "bank_ref_id": "BANK-318409EE",
+    "merch_ref_id": "TXN-055720BF",
+    "settlement_amount": 4697.22,
+    "settlement_time": "2026-08-16T19:14:33",
+    "narration": "NEFT-RAZORPAY-TXN-055720BF"
+  },
+  {
+    "bank_ref_id": "BANK-026150D1",
+    "merch_ref_id": "TXN-A9153DAB",
+    "settlement_amount": 1433.42,
+    "settlement_time": "2026-08-24T07:57:37",
+    "narration": "NEFT-RAZORPAY-TXN-A9153DAB"
+  },
+  {
+    "bank_ref_id": "BANK-E0DF8D09",
+    "merch_ref_id": "TXN-5E993A55",
+    "settlement_amount": 6272.13,
+    "settlement_time": "2026-08-17T22:57:22",
+    "narration": "NEFT-RAZORPAY-TXN-5E993A55"
+  },
+  {
+    "bank_ref_id": "BANK-7D0D5063",
+    "merch_ref_id": "TXN-E15286F2",
+    "settlement_amount": 7473.2,
+    "settlement_time": "2026-08-01T11:02:53",
+    "narration": "NEFT-RAZORPAY-TXN-E15286F2"
+  },
+  {
+    "bank_ref_id": "BANK-F754DD09",
+    "merch_ref_id": "TXN-BD422AEF",
+    "settlement_amount": 8095.88,
+    "settlement_time": "2026-08-12T02:32:07",
+    "narration": "NEFT-RAZORPAY-TXN-BD422AEF"
+  },
+  {
+    "bank_ref_id": "BANK-3DEBB517",
+    "merch_ref_id": "TXN-D44AE118",
+    "settlement_amount": 426.56,
+    "settlement_time": "2026-08-21T02:38:58",
+    "narration": "NEFT-RAZORPAY-TXN-D44AE118"
+  },
+  {
+    "bank_ref_id": "BANK-16C757C6",
+    "merch_ref_id": "TXN-D57E8C06",
+    "settlement_amount": 7754.77,
+    "settlement_time": "2026-08-05T06:44:23",
+    "narration": "NEFT-RAZORPAY-TXN-D57E8C06"
+  },
+  {
+    "bank_ref_id": "BANK-C20F271C",
+    "merch_ref_id": "TXN-6581367D",
+    "settlement_amount": 9586.89,
+    "settlement_time": "2026-08-03T12:23:19",
+    "narration": "NEFT-RAZORPAY-TXN-6581367D"
+  },
+  {
+    "bank_ref_id": "BANK-D6BB8D2F",
+    "merch_ref_id": "TXN-A48220CA",
+    "settlement_amount": 7851.09,
+    "settlement_time": "2026-08-13T09:51:37",
+    "narration": "NEFT-RAZORPAY-TXN-A48220CA"
+  },
+  {
+    "bank_ref_id": "BANK-5DC1AB89",
+    "merch_ref_id": "TXN-68A0B29B",
+    "settlement_amount": 5058.43,
+    "settlement_time": "2026-08-02T14:09:23",
+    "narration": "NEFT-RAZORPAY-TXN-68A0B29B"
+  },
+  {
+    "bank_ref_id": "BANK-BFF2AA9B",
+    "merch_ref_id": "TXN-D94892E8",
+    "settlement_amount": 9758.52,
+    "settlement_time": "2026-08-23T12:56:21",
+    "narration": "NEFT-RAZORPAY-TXN-D94892E8"
+  },
+  {
+    "bank_ref_id": "BANK-9E89D4F6",
+    "merch_ref_id": "TXN-4B3BE66F",
+    "settlement_amount": 3534.63,
+    "settlement_time": "2026-08-23T19:48:53",
+    "narration": "NEFT-RAZORPAY-TXN-4B3BE66F"
+  }
+]

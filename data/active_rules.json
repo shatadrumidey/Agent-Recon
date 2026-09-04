@@ -1,0 +1,11 @@
+[
+  {
+    "rule_name": "gateway_settlement_ratio_0_98",
+    "rule_type": "amount_ratio",
+    "merchant_field": "amount_inr",
+    "bank_field": "settlement_amount",
+    "ratio": 0.98,
+    "tolerance": 0.01,
+    "explanation": "Across all observed transaction samples, dividing bank.settlement_amount by merchant.amount_inr consistently yields approximately 0.98 (e.g., 5335.52 / 5444.41 = 0.979998, 1960.99 / 2001.01 = 0.979999, 7906.15 / 8067.50 = 0.980000). This indicates a standard multiplicative settlement factor of 0.98 (representing a 2% deduction)."
+  }
+]
