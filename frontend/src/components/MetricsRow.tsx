@@ -7,6 +7,7 @@ type MetricCardProps = {
 
 function MetricCard({ label, value, dot, onClick }: MetricCardProps) {
   const clickable = !!onClick;
+
   return (
     <div
       className="flex-1 flex flex-col gap-4 px-5 py-5"
@@ -19,10 +20,14 @@ function MetricCard({ label, value, dot, onClick }: MetricCardProps) {
         transition: "border-color 0.1s",
       }}
       onMouseEnter={(e) => {
-        if (clickable) (e.currentTarget as HTMLDivElement).style.borderColor = "#3F3F46";
+        if (clickable) {
+          (e.currentTarget as HTMLDivElement).style.borderColor = "#3F3F46";
+        }
       }}
       onMouseLeave={(e) => {
-        if (clickable) (e.currentTarget as HTMLDivElement).style.borderColor = "#27272A";
+        if (clickable) {
+          (e.currentTarget as HTMLDivElement).style.borderColor = "#27272A";
+        }
       }}
     >
       <div className="flex items-center gap-2">
@@ -38,10 +43,19 @@ function MetricCard({ label, value, dot, onClick }: MetricCardProps) {
             }}
           />
         )}
-        <span style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "#C4C4C8", fontWeight: 400 }}>
+
+        <span
+          style={{
+            fontFamily: "Inter, sans-serif",
+            fontSize: "14px",
+            color: "#C4C4C8",
+            fontWeight: 400,
+          }}
+        >
           {label}
         </span>
       </div>
+
       <div className="flex items-end justify-between">
         <span
           style={{
@@ -55,6 +69,7 @@ function MetricCard({ label, value, dot, onClick }: MetricCardProps) {
         >
           {value}
         </span>
+
         {clickable && (
           <span
             style={{
@@ -78,14 +93,46 @@ function MetricCard({ label, value, dot, onClick }: MetricCardProps) {
   );
 }
 
-type Props = { onExceptionsClick: () => void };
+type Props = {
+  onExceptionsClick: () => void;
+  totalVolume: number;
+  autoCleared: number;
+  aiCleared: number;
+  actionRequired: number;
+};
 
-export default function MetricsRow({ onExceptionsClick }: Props) {
+export default function MetricsRow({
+  onExceptionsClick,
+  totalVolume,
+  autoCleared,
+  aiCleared,
+  actionRequired,
+}: Props) {
   return (
     <div className="flex gap-4">
-      <MetricCard label="Total Processed" value="1,000" />
-      <MetricCard label="Deterministically Matched" value="870" dot="#4ADE80" />
-      <MetricCard label="Exceptions" value="130" dot="#FBBF24" onClick={onExceptionsClick} />
+      <MetricCard
+        label="Total Processed"
+        value={totalVolume.toLocaleString()}
+      />
+
+      <MetricCard
+        label="Deterministically Matched"
+        value={autoCleared.toLocaleString()}
+        dot="#4ADE80"
+      />
+
+      <MetricCard
+        label="AI Cleared"
+        value={aiCleared.toLocaleString()}
+        dot="#B5C7EB"
+      />
+
+      <MetricCard
+        label="Action Required"
+        value={actionRequired.toLocaleString()}
+        dot="#FBBF24"
+        onClick={actionRequired > 0 ? onExceptionsClick : undefined}
+      />
     </div>
   );
 }

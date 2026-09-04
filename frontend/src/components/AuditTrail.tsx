@@ -1,55 +1,70 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import LogoMark from "./LogoMark";
 
-const TRANSACTIONS = [
-  { id: "TXN-00184721", counterparty: "Stripe Inc.", amount: "$4,200.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184722", counterparty: "Adyen N.V.", amount: "$1,960.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184723", counterparty: "Stripe Inc.", amount: "$850.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184724", counterparty: "PayPal Holdings", amount: "$3,136.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184725", counterparty: "Checkout.com", amount: "$720.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184726", counterparty: "Braintree LLC", amount: "$588.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184727", counterparty: "Stripe Inc.", amount: "$11,500.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184728", counterparty: "Square Inc.", amount: "$294.12", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184729", counterparty: "Adyen N.V.", amount: "$5,400.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184730", counterparty: "Checkout.com", amount: "$980.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184731", counterparty: "Stripe Inc.", amount: "$2,300.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184732", counterparty: "Braintree LLC", amount: "$470.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184733", counterparty: "PayPal Holdings", amount: "$8,100.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-  { id: "TXN-00184734", counterparty: "Adyen N.V.", amount: "$1,372.00", rule: "ai_gateway_fee_rule", ruleType: "AI_GENERATED" },
-  { id: "TXN-00184735", counterparty: "Checkout.com", amount: "$660.00", rule: "exact_match", ruleType: "DETERMINISTIC" },
-];
+const fmtMoney = (n: number) =>
+  `$${n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
-const AI_AUDIT = {
-  matchType: "AI_GENERATED",
-  ruleName: "ai_gateway_fee_rule",
-  confidence: "100%",
-  executedAt: "2026-08-30 09:18 UTC",
-  matchLogic: "Matched on Amount × 0.98 == Bank Amount",
-  approver: "Priya Menon",
-  approverInitials: "PM",
-  explanation:
-    "The merchant ledger recorded $2,000.00. The bank settled $1,960.00. The AI Quant Engine identified a consistent 2% gateway processing fee applied at settlement across all 70 similar transactions. Rule ai_gateway_fee_rule was promoted to production following human approval and zero-regression sandbox validation.",
-};
+const fmtTs = (iso: string) => (iso ? iso.replace("T", " ").slice(0, 19) + " UTC" : "—");
 
-const DET_AUDIT = {
-  matchType: "DETERMINISTIC",
-  ruleName: "exact_match",
-  confidence: "100%",
-  executedAt: "2026-08-30 09:14 UTC",
-  matchLogic: "Amount == Bank Amount (exact)",
-  approver: "System",
-  approverInitials: "SY",
-  explanation:
-    "Merchant ledger and bank settlement amounts matched exactly to the cent. No discrepancy detected. Rule exact_match is a baseline deterministic rule applied to all transactions before AI analysis.",
-};
+const matchLogicFor = (m: any) =>
+  m.match_type === "AI_GENERATED"
+    ? `AI Rule "${m.rule_name}" matched (merchant ${fmtMoney(m.merchant_amount)} → bank ${fmtMoney(m.bank_amount)})`
+    : "Amount == Bank Amount (exact)";
 
-type Props = { onBack: () => void; onToDashboard: () => void };
+function shuffle<T>(arr: T[]): T[] {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
 
-export default function AuditTrail({ onBack, onToDashboard }: Props) {
-  const [activeId, setActiveId] = useState<string>("TXN-00184722");
+type Props = { matches: any[]; onBack: () => void; onToDashboard: () => void };
 
-  const activeTx = TRANSACTIONS.find((t) => t.id === activeId)!;
-  const audit = activeTx.ruleType === "AI_GENERATED" ? AI_AUDIT : DET_AUDIT;
+export default function AuditTrail({ matches, onBack, onToDashboard }: Props) {
+  // Shuffle once per fetched batch (not on every render/click) so the
+  // ledger mixes exact / T+1 / AI-rule matches instead of showing them
+  // grouped in pipeline-pass order.
+  const shuffledMatches = useMemo(() => shuffle(matches), [matches]);
+
+  const TRANSACTIONS = shuffledMatches.map((m) => ({
+    id: m.merch_txn_id,
+    counterparty: m.counterparty,
+    amount: fmtMoney(m.bank_amount),
+    rule: m.rule_name,
+    ruleType: m.match_type,
+  }));
+
+  const [activeId, setActiveId] = useState<string>(
+    shuffledMatches.find((m) => m.match_type === "AI_GENERATED")?.merch_txn_id ??
+      shuffledMatches[0]?.merch_txn_id ??
+      ""
+  );
+
+  const activeMatch = matches.find((m) => m.merch_txn_id === activeId);
+  const activeTx = TRANSACTIONS.find((t) => t.id === activeId);
+
+  if (!activeMatch || !activeTx) {
+    return (
+      <div style={{ padding: 24, color: "#E4E4E7", backgroundColor: "#0E0E11", minHeight: "100vh" }}>
+        No matches to display yet.
+      </div>
+    );
+  }
+
+  const audit = {
+    matchType: activeMatch.match_type,
+    ruleName: activeMatch.rule_name,
+    confidence: `${Math.round(activeMatch.confidence * 100)}%`,
+    executedAt: fmtTs(activeMatch.executed_at),
+    matchLogic: matchLogicFor(activeMatch),
+    approver: activeMatch.match_type === "AI_GENERATED" ? "Priya Menon" : "System",
+    approverInitials: activeMatch.match_type === "AI_GENERATED" ? "PM" : "SY",
+    explanation: `The merchant ledger recorded ${fmtMoney(activeMatch.merchant_amount)}. The bank settled ${fmtMoney(
+      activeMatch.bank_amount
+    )}. ${activeMatch.audit_notes}`,
+  };
 
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#0E0E11", fontFamily: "Inter, sans-serif" }}>
@@ -82,7 +97,7 @@ export default function AuditTrail({ onBack, onToDashboard }: Props) {
         <span style={{ fontSize: "14px", color: "#3F3F46" }}>/</span>
         <span style={{ fontSize: "14px", color: "#E4E4E7", fontWeight: 500 }}>Master Ledger</span>
         <span style={{ marginLeft: "8px", fontSize: "12px", fontWeight: 500, color: "#ADEBB3", backgroundColor: "rgba(173,235,179,0.08)", padding: "2px 8px", borderRadius: "3px" }}>
-          1,000 transactions · All resolved
+          {TRANSACTIONS.length.toLocaleString()} transactions · All resolved
         </span>
       </div>
 
@@ -100,7 +115,7 @@ export default function AuditTrail({ onBack, onToDashboard }: Props) {
             style={{ height: "48px", borderBottom: "1px solid #27272A", backgroundColor: "#18181B", position: "sticky", top: 0, zIndex: 1 }}
           >
             <span style={{ fontSize: "15px", fontWeight: 700, color: "#E4E4E7" }}>Master Ledger</span>
-            <span style={{ fontSize: "13px", color: "#C4C4C8" }}>Showing 15 of 1,000 · Click any row for audit trail</span>
+            <span style={{ fontSize: "13px", color: "#C4C4C8" }}>Showing {TRANSACTIONS.length.toLocaleString()} of {TRANSACTIONS.length.toLocaleString()} · Click any row for audit trail</span>
           </div>
 
           <table style={{ width: "100%", borderCollapse: "collapse" }}>

@@ -34,11 +34,53 @@ const REF_EXCEPTIONS = [
 
 const TABLE_HEADERS = ["Transaction Id", "Merchant Id", "Bank Id", "Amount", "Expected", "Time Drift"];
 
-type Props = { onBack: () => void; onAISandbox: () => void };
+type Props = {
+  onBack: () => void;
+  onAISandbox: (payload: any) => void;
+};
 
 export default function ExceptionQueue({ onBack, onAISandbox }: Props) {
   const [selected, setSelected] = useState<Cluster>("fee");
+  const [isGenerating, setIsGenerating] = useState(false);
+
   const rows = selected === "fee" ? FEE_EXCEPTIONS : REF_EXCEPTIONS;
+
+  const handleSynthesize = async () => {
+    setIsGenerating(true);
+
+    try {
+      const response = await fetch(
+        `http://localhost:8000/api/v1/recon/ai-propose-and-evaluate?anomaly_type=${
+            selected === "ref" ? "narration" : selected
+          }`,
+        {
+          method: "POST",
+        }
+      );
+
+      if (!response.ok) {
+        const errorBody = await response.text();
+        throw new Error(
+          `Backend request failed (${response.status}): ${errorBody}`
+        );
+      }
+
+      const payload = await response.json();
+
+      console.log("AI Sandbox payload:", payload);
+
+      onAISandbox(payload);
+    } catch (error) {
+      console.error("Failed to synthesize rule:", error);
+
+      const message =
+        error instanceof Error ? error.message : String(error);
+
+      alert(`Failed to synthesize rule:\n${message}`);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
 
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#0E0E11", fontFamily: "Inter, sans-serif" }}>
@@ -121,9 +163,10 @@ export default function ExceptionQueue({ onBack, onAISandbox }: Props) {
                   justifyContent: "space-between",
                   padding: "10px 16px",
                   backgroundColor: active ? "#27272A" : "transparent",
-                  borderLeft: active ? "2px solid #6366F1" : "2px solid transparent",
                   border: "none",
-                  borderLeft: active ? "2px solid #6366F1" : "2px solid transparent",
+                  borderLeft: active
+                    ? "2px solid #6366F1"
+                    : "2px solid transparent",
                   cursor: "pointer",
                   textAlign: "left",
                   transition: "background-color 0.1s",
@@ -200,34 +243,40 @@ export default function ExceptionQueue({ onBack, onAISandbox }: Props) {
               </span>
             </div>
 
-            {selected === "fee" && (
-              <button
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  backgroundColor: "#6366F1",
-                  border: "1px solid #4F46E5",
-                  borderRadius: "4px",
-                  padding: "9px 18px",
-                  cursor: "pointer",
-                  fontFamily: "Inter, sans-serif",
-                  fontSize: "14px",
-                  fontWeight: 700,
-                  color: "#FFFFFF",
-                  letterSpacing: "0.01em",
-                  transition: "background-color 0.1s",
-                }}
-                onClick={onAISandbox}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#4F46E5"; }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#6366F1"; }}
-              >
+            <button
+              disabled={isGenerating}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "8px",
+                backgroundColor: isGenerating ? "#4338CA" : "#6366F1",
+                border: "1px solid #4F46E5",
+                borderRadius: "4px",
+                padding: "9px 18px",
+                cursor: isGenerating ? "wait" : "pointer",
+                fontFamily: "Inter, sans-serif",
+                fontSize: "14px",
+                fontWeight: 700,
+                color: isGenerating ? "#A5B4FC" : "#FFFFFF",
+                letterSpacing: "0.01em",
+                transition: "background-color 0.1s",
+              }}
+              onClick={handleSynthesize}
+            >
+              {!isGenerating && (
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M7 1L8.5 5.5H13L9.5 8L11 12.5L7 10L3 12.5L4.5 8L1 5.5H5.5L7 1Z" fill="white" fillOpacity="0.9" />
+                  <path
+                    d="M7 1L8.5 5.5H13L9.5 8L11 12.5L7 10L3 12.5L4.5 8L1 5.5H5.5L7 1Z"
+                    fill="white"
+                    fillOpacity="0.9"
+                  />
                 </svg>
-                Synthesize Rule via AI Quant
-              </button>
-            )}
+              )}
+
+              {isGenerating
+                ? "Synthesizing & Simulating..."
+                : "Synthesize Rule via AI Quant"}
+            </button>
           </div>
 
           {/* Table */}
