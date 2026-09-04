@@ -1,3 +1,6 @@
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+
 import { useEffect, useState } from "react";
 
 import Header from "./components/Header";
@@ -9,8 +12,6 @@ import AISandbox from "./components/AISandbox";
 import AuditTrail from "./components/AuditTrail";
 
 export type Screen = "dashboard" | "exceptions" | "ai-sandbox" | "audit";
-
-const API_BASE = "http://127.0.0.1:8000";
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("dashboard");
@@ -27,7 +28,7 @@ export default function App() {
   const fetchStatus = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/recon/status"
+        `${API_BASE}/api/v1/recon/status`
       );
 
       if (!response.ok) {
