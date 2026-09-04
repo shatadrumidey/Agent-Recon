@@ -30,6 +30,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:3000",
         "https://agentrecon-git-main-shata2.vercel.app",
+        "https://agentrecon.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
