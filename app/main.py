@@ -48,7 +48,7 @@ def seed_startup_work():
 
 
 app = FastAPI(
-    app = FastAPI(lifespan=lifespan),
+    lifespan=lifespan,
     title="ReconAgent",
     description="Deterministic-first, AI-second financial reconciliation engine.",
 )
