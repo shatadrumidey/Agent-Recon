@@ -18,8 +18,33 @@ from app.ledger import persist_pipeline_result, get_latest_job, matches_to_dict
 
 from app.poison_pill import evaluate_poison_pill
 
+import asyncio
+import logging
+from contextlib import asynccontextmanager
+
+logger = logging.getLogger(__name__)
+
+def seed_startup_work():
+    try:
+        Base.metadata.create_all(bind=db_engine)
+        db = SessionLocal()
+        try:
+            if get_latest_job(db) is None:
+                initial_result = execute_recon_pipeline()
+                persist_pipeline_result(db, initial_result)
+        finally:
+            db.close()
+    except Exception:
+        logger.exception("Startup seeding failed — app will still serve, /status may be stale")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    asyncio.create_task(asyncio.to_thread(seed_startup_work))
+    yield
+
 
 app = FastAPI(
+    app = FastAPI(lifespan=lifespan),
     title="ReconAgent",
     description="Deterministic-first, AI-second financial reconciliation engine.",
 )
@@ -36,25 +61,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-@app.on_event("startup")
-def on_startup():
-    """
-    Create tables if they don't exist, and seed the immutable
-    ledger with one initial reconciliation snapshot if the
-    database is empty (first run).
-    """
-
-    Base.metadata.create_all(bind=db_engine)
-
-    db = SessionLocal()
-    try:
-        if get_latest_job(db) is None:
-            initial_result = execute_recon_pipeline()
-            persist_pipeline_result(db, initial_result)
-    finally:
-        db.close()
 
 
 class PromotionRequest(BaseModel):
