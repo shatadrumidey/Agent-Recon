@@ -50,7 +50,7 @@ export default function ExceptionQueue({ onBack, onAISandbox }: Props) {
 
     try {
       const response = await fetch(
-        `http://localhost:8000/api/v1/recon/ai-propose-and-evaluate?anomaly_type=${
+        `https://agent-recon.onrender.com/api/v1/recon/ai-propose-and-evaluate?anomaly_type=${
             selected === "ref" ? "narration" : selected
           }`,
         {
