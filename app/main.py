@@ -6,6 +6,8 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+from app import db_models
+
 from app.sampler import get_stratified_anomaly_sample
 from app.ai_agent import propose_reconciliation_rule
 from app.rule_validator import validate_rule
