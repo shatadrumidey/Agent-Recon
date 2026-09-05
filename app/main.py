@@ -24,9 +24,16 @@ from contextlib import asynccontextmanager
 
 logger = logging.getLogger(__name__)
 
+from app.database import engine, SessionLocal  # match your actual names in database.py
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    Base.metadata.create_all(bind=engine)  # synchronous, runs BEFORE yield — table always exists first
+    asyncio.create_task(asyncio.to_thread(seed_startup_work))
+    yield
+
 def seed_startup_work():
     try:
-        Base.metadata.create_all(bind=db_engine)
         db = SessionLocal()
         try:
             if get_latest_job(db) is None:
@@ -36,11 +43,6 @@ def seed_startup_work():
             db.close()
     except Exception:
         logger.exception("Startup seeding failed — app will still serve, /status may be stale")
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    asyncio.create_task(asyncio.to_thread(seed_startup_work))
-    yield
 
 
 app = FastAPI(
